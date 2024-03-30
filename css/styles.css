@@ -256,14 +256,16 @@ img {
   color: #434455;
 }
 .our-team-img {
-  border-top-left-radius: 0px; 
-  border-top-right-radius: 0px; 
-  border-top-right-radius: 4px;
- border-bottom-left-radius: 4px;
+
 }
+  
  
 .our-team-item {
   background-color: #ffffff;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 4px;
 }
 
 .container-ourteam-text{
