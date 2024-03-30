@@ -52,7 +52,7 @@ img {
 /*---------------------------------------------------------------------------------*/
 
 .container {
-  max-width: 1128px;
+  max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -80,6 +80,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px
 }
 
 .header-logo-span {
@@ -90,7 +91,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
-  margin-right: 76px;
 }
 
 .header-menu {
@@ -141,9 +141,7 @@ img {
 .main-page {
 }
 
-.hero-wrap {
-  /*padding: 188px;*/
-}
+
 
 .hero {
   background-color: #2e2f42;
@@ -175,6 +173,9 @@ img {
   padding: 16px 32px;
   border-radius: 4px;
   border: none;
+  min-width: 169px;
+  height: 56px;
+  
 }
 
 .hero-btn:hover,
@@ -206,6 +207,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .info-text {
   font-weight: 400;
@@ -228,11 +230,12 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .our-team-list {
     display: flex;
     gap: 24px;
-    margin-top: 72px;
+    border-radius: 0px 0px 4px 4px;
 }
 .our-team-subtitle {
   font-weight: 500;
@@ -241,6 +244,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px
 }
 .our-team-text {
   font-weight: 400;
@@ -258,7 +262,8 @@ img {
 
 .container-ourteam-text{
   margin: 0 auto;
-  padding: 32px 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
 }
 /*------------------------------------------------------------------------------*/
@@ -274,12 +279,12 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px
 }
 .our-portfolio-list {
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
-    margin-top: 72px;
 }
 .our-portfolio-item {
 }
@@ -292,6 +297,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px
 }
 .our-portfolio-text {
   font-weight: 400;
@@ -313,10 +319,12 @@ padding: 32px 16px
 
 .footer {
   background-color: #2e2f42;
+ padding-top: 100px;
+ padding-bottom: 100px;
 }
 
 .footer-container{
-  padding: 100px 0;
+
 }
 
 .footer-logo {
