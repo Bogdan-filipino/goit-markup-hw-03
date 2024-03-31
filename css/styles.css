@@ -262,10 +262,7 @@ img {
  
 .our-team-item {
   background-color: #ffffff;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-  border-top-right-radius: 4px;
-  border-bottom-left-radius: 4px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .container-ourteam-text{
